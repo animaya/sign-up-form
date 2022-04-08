@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    background: rgb(238, 236, 236);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .odin-text {
+    font-family: Norse;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 5;
+    top: 16vh;
+    left: 150px;
+    
+  } 
+
+  .description-container {
+      padding: 20px;
+      width: 800px;
+      text-align: left;
+      background:rgb(238, 236, 236);
+  }
+
+  #description {
+      font-size: 1.3rem;
+      font-family: 'Segoe UI';
+      font-weight: bold;  
+      text-justify: distribute-all-lines;
+      
+    }
+
+  .logo-image {
+    height: 15%;
+    /* width: 30vw; */
+    position: fixed;
+    z-index: 4;
+    top: 25vh;
+    left: 30px;
+    
+  }  
+
+  .backplate {
+    height: 15%;
+    width: 30vw;
+    position: fixed;
+    z-index: 2;
+    top: 25vh;
+    left: 0;
+    background: rgb(4, 3, 3);
+    opacity: 40%;
+    overflow-x: hidden;
+  }  
+
+  .form-backplate {
+    height: 40%;
+    margin-left: 30vw;
+    width: 70vw;
+    position: fixed;
+    z-index: 2;
+    top: 25vh;
+    left: 0;
+    background: white;
+    opacity: 70%;
+    box-shadow: 5px 5px rgb(183, 181, 181);
+    
+  }  
+  .sidebar {
+    height: 100%;
+    width: 30vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: gray;
+    overflow-x: hidden;
+    background-image: image();
+  }  
+
+  .hero-image {
+    background-image: url("./img/bg.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+   
+    background-position:inherit; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .content {
+    
+    height: 100%;
+    width: 70vw;
+    margin-left: 30vw;
+    /* padding-left: 20px; */
+    
+  }
+
+  input {
+    border: 1px solid #E5E7EB;
+    padding: 5px 55px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+    
+  }
+
+  .btn-container {
+    position: fixed;
+    margin-left: 30vw;
+    justify-content: space-between;
+    
+    top: 70vh;;
+    left: 7vh;
+  }
+
+  .btn{
+      width: 200px;
+      height: 40px;
+      border-radius: 6px;
+      color: white;
+      background: #596D48;
+    
+  }
+
+  .form-container {
+      margin: 20px;
+      width: 600px;
+      height: 200px;
+      display:flex;
+     gap: 40px;
+      flex-wrap: wrap;
+
+
+    
+  }
+
